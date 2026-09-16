@@ -1,5 +1,5 @@
 {
-    "name": "alexandergziresis/simple-qrcode",
+    "name": "iresis/simple-qrcode",
     "type": "library",
     "description": "Modern QR Code generator for Laravel based on SimpleSoftwareIO/simple-qrcode.",
     "keywords": ["qrcode", "laravel", "simple", "generator", "wrapper"],
