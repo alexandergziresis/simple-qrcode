@@ -1,5 +1,6 @@
 {
     "name": "alexandergziresis/simple-qrcode",
+    "type": "library",
     "description": "Modern QR Code generator for Laravel based on SimpleSoftwareIO/simple-qrcode.",
     "keywords": ["qrcode", "laravel", "simple", "generator", "wrapper"],
     "homepage": "https://github.com/alexandergziresis/simple-qrcode",
@@ -14,6 +15,9 @@
         "php": ">=7.2|^8.0",
       	"ext-gd": "*",
         "bacon/bacon-qr-code": "^2.0|^3.0"
+    },
+    "replace": {
+        "simplesoftwareio/simple-qrcode": "self.version"
     },
     "require-dev": {
         "mockery/mockery": "~1",
